@@ -7,7 +7,7 @@ authors:
     given-names: "Sin Guan"
 version: "1.0.0"
 date-released: "2026-06-28"
-repository-code: "REPLACE_WITH_GITHUB_REPOSITORY_URL"
+repository-code: "https://github.com/kensinro/D-XOBS"
 preferred-citation:
   type: article
   title: "Biological-process observability reveals discriminative and endpoint-invariant information regimes in cancer transcriptomic systems"
