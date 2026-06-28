@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aido-d-xobs"
+version = "1.0.0"
+description = "Reproducibility code for process-level observability analyses in cancer transcriptomic systems."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Sin Guan Kong"}]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+  "scikit-learn>=1.3",
+  "statsmodels>=0.14"
+]
+
+[project.optional-dependencies]
+full = ["matplotlib>=3.8", "networkx>=3.2", "gseapy>=1.1", "openpyxl>=3.1"]
+
+[project.scripts]
+aido-d-xobs = "aido_d_xobs.core:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

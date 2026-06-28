@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this software repository."
+title: "AIDO-D-XOBS reproducibility code"
+type: software
+authors:
+  - family-names: "Kong"
+    given-names: "Sin Guan"
+version: "1.0.0"
+date-released: "2026-06-28"
+repository-code: "REPLACE_WITH_GITHUB_REPOSITORY_URL"
+preferred-citation:
+  type: article
+  title: "Biological-process observability reveals discriminative and endpoint-invariant information regimes in cancer transcriptomic systems"
+  authors:
+    - family-names: "Kong"
+      given-names: "Sin Guan"
+  year: 2026

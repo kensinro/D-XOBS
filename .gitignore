@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+*.log
+results/*
+!results/.gitkeep
+data/*
+!data/README.md
+*.zip
+*.tar.gz
